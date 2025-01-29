@@ -1,0 +1,102 @@
+body, html {
+  background: #19191B;
+}
+
+
+.Dech{
+  background: #19191B;
+}
+
+/* Definir la animación */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hidden{
+  opacity: 0;
+}
+
+.routes-div {
+  animation: fadeIn 0.8s ease-out forwards;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+.gradient-1-app-md {
+  position: absolute;
+  width: 450px;
+  height: 1200px;
+  left: 100px;
+  top: -100px;
+
+  background: linear-gradient(180deg, rgba(84, 84, 212, 0.27) 0%, rgba(84, 84, 212, 0.1134) 100%);
+  filter: blur(150px);
+  border-radius: 100px;
+  transform: rotate(-54.37deg); 
+
+  pointer-events: none;
+}
+
+.gradient-2-app-md{
+  position: absolute;
+  width: 467px;
+  height: 500px;
+  left: 900px;
+  top: 100px;
+
+  background: linear-gradient(180deg, rgba(251, 168, 28, 0.5) 0%, rgba(224, 86, 136, 0.1) 100%);
+  filter: blur(150px);
+  border-radius: 233.5px;
+  transform: rotate(65.71deg);
+
+  pointer-events: none;
+
+}
+
+.gradient-1-app-xs{
+
+  position: absolute;
+  width: 200px;
+  height: 500px;
+  left: 100px;
+  top: 100%;
+
+  background: linear-gradient(180deg, rgba(84, 84, 212, 0.27) 0%, rgba(84, 84, 212, 0.1134) 100%);
+  filter: blur(150px);
+  border-radius: 100px;
+  transform: rotate(-54.37deg); 
+
+  pointer-events: none;
+
+}
+
+.gradient-2-app-xs{
+  position: absolute;
+  width: 467px;
+  height: 500px;
+  left: 50px;
+  top: 200px;
+
+  background: linear-gradient(180deg, rgba(251, 168, 28, 0.5) 0%, rgba(224, 86, 136, 0.1) 100%);
+  filter: blur(150px);
+  border-radius: 233.5px;
+  transform: rotate(65.71deg);
+
+  pointer-events: none;
+
+}
+
+.footer{
+  padding: 1rem;
+}

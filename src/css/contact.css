@@ -1,0 +1,51 @@
+.contact-main-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+
+.contact-sec-title{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-method-text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    text-align: center;
+    letter-spacing: -0.500211px;
+
+    color: rgba(255, 255, 255, 0.7);
+
+    padding-top: 5%;
+}
+
+.contact-method-photo{
+    width: 70px;
+    height: auto;
+}
+
+@keyframes iconAnimationContact {
+    25% {
+        transform: translateY(3px); 
+      }
+      75% {
+        transform: translateY(-3px);
+      }
+}
+
+.contact-method-grid:hover .contact-method-photo{
+    animation: iconAnimation 2s ease-out forwards infinite;
+}

@@ -1,0 +1,64 @@
+.services-principal-grid{
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.services-text-1{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.services-title{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.750316px;
+
+    color: #FFFFFF;
+}
+
+.services-description{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    text-align: center;
+    letter-spacing: -0.500211px;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.services-icon{
+    width: 15%;
+    height: auto;
+
+    padding-bottom: 3%;
+    
+    filter: invert(100%);
+}
+
+
+@keyframes iconAnimation {
+    25% {
+        transform: translateY(3px); 
+    }
+    75% {
+        transform: translateY(-3px);
+    }
+}
+
+.services-grid:hover .services-icon {
+    animation: iconAnimation 2s ease-out forwards infinite;
+}
