@@ -56,7 +56,7 @@ function AppContent({setLocale}) {
 
 function App({setLocale}) {
   return (
-    <BrowserRouter className="Dech">
+    <BrowserRouter className="Dech" basename="/dech">
       <Box display={{ xs: 'none', md: 'block' }} sx = {{position: 'fixed', width:'100%', height:'auto'}}>
         <div className='gradient-1-app-md'></div>
         <div className='gradient-2-app-md'></div>      </Box>
