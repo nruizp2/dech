@@ -20,7 +20,7 @@ import { useNavigate } from "react-router-dom";
 function Home({f}){
     let navigate = useNavigate();
     const intl = useIntl();
-    const video1_url  = 'https://www.youtube.com/embed/tgbNymZ7vqY'
+    // const video1_url  = 'https://www.youtube.com/embed/tgbNymZ7vqY'
 
     const handleNavigate = (path) => {
         window.scrollTo(0, 0);
