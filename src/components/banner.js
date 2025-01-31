@@ -121,7 +121,7 @@ function Banner({f, setLocale}){
                                     <MenuItem onClick={() => handleNavigateAndClose('')} className="MenuItem"><p className="inicio-text">{intl.formatMessage({id:"home"})}</p></MenuItem>
                                     <MenuItem onClick={() => handleNavigateAndClose('services')} className="MenuItem"><p className="inicio-text">{intl.formatMessage({id:"services"})}</p></MenuItem>
                                     <MenuItem onClick={() => handleNavigateAndClose('projects')}><p className="inicio-text">{intl.formatMessage({id:"projects"})}</p></MenuItem>
-                                    <MenuItem onClick={handleClose}><p className="inicio-text">{intl.formatMessage({id:"about us"})}</p></MenuItem>
+                                    <MenuItem onClick={() => handleNavigateAndClose('us')}><p className="inicio-text">{intl.formatMessage({id:"about us"})}</p></MenuItem>
                                     <MenuItem onClick={handleClose}><img onClick={() => changeLocale()} alt='language' src={currLocale === "es"? EN: ES} className='lang-img'></img></MenuItem>
                                 </Menu>
                             </Grid2>

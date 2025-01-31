@@ -21,6 +21,14 @@ import p2_8 from "../assets/project 2/p8.jpg"
 import p2_9 from "../assets/project 2/p9.jpg"
 import p2_10 from "../assets/project 2/p10.jpg"
 
+import p3_1 from "../assets/project 3/p1.png"
+import p3_2 from "../assets/project 3/p2.png"
+import p3_3 from "../assets/project 3/p3.png"
+import p3_4 from "../assets/project 3/p4.png"
+import p3_5 from "../assets/project 3/p5.png"
+import p3_6 from "../assets/project 3/p6.png"
+import p3_7 from "../assets/project 3/p7.png"
+
 import { useIntl } from "react-intl";
 
 
@@ -33,6 +41,14 @@ function Projects () {
             <Grid2 size={12} sx={{display:'flex', flexDirection:'column',width:'100%', justifyContent:'center', alignItems:'center', paddingLeft:'5%'}}>
                 <p className="project-main-title">{intl.formatMessage({id:"project1"})}</p>
                 <p className="project-sec-title">{intl.formatMessage({id:"project2"})}</p>
+            </Grid2>
+
+            <Grid2 size={{xs:12, md: 6}}  sx={{justifyContent:'center', alignItems:'center', paddingBottom: '3%'}}>
+                <p className="project-title">{intl.formatMessage({id:"project7"})}</p>
+                <p className="project-description">{intl.formatMessage({id:"project8"})}</p>
+            </Grid2>
+            <Grid2 size={{xs:12, md: 6}} sx={{width:'100%', display:'flex', height:'auto', justifyContent:'center', alignItems:'center' , paddingLeft:'3%', paddingRight:'3%', paddingBottom: '3%'}}>
+                <CarouselDech  h={'400px'} imgs={[p3_1,p3_2,p3_3,p3_4,p3_5,p3_6,p3_7]} />
             </Grid2>
 
             <Grid2 size={{xs:12, md: 6}}  sx={{justifyContent:'center', alignItems:'center', paddingBottom: '3%'}}>
