@@ -1,6 +1,6 @@
 const globals = {
-    mail: "contacto@dechsolutions.com.co",
-    phone: "+573188490365",
+    mail: "contactodechsolutions@gmail.com",
+    phone: "+573178125977",
     ig: '@dechsolutions'
 }
 export default globals;

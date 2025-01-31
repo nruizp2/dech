@@ -9,6 +9,7 @@
     "home3": "Nuestros Servicios ⬊",
     "home4": "¿Por qué elegir a Dech como tu aliado?",
     "home5": "¡Mira este video de un minuto y comprenderás por qué elegir nuestros servicios!",
+    "home6": "¡Hablemos sobre tu idea!",
     "services1":  "Soluciones diseñadas para ti",
     "services2": "Desarrollo",
     "services3": "Creamos aplicaciones robustas, escalables y optimizadas para potenciar tu negocio",
@@ -24,5 +25,16 @@
     "services13": "Creamos soluciones de Machine Learning y análisis avanzado para extraer valor de tus datos, optimizar procesos y potenciar tu negocio.",
     "footer": "Dech Solutions, Todos Los Derechos Reservados",
     "contact1": "¡Cuentanos sobre tu idea!",
-    "contact2": "Contactanos por tu medio preferido para recibir asesoría"
+    "contact2": "Contactanos por tu medio preferido para recibir asesoría",
+    "project1": "¡Mira lo que podemos hacer!",
+    "project2": "Explora algunos de los productos innovadores que hemos creado, diseñados para cumplir con tus necesidades.",
+    "project3": "Aplicaciones móviles",
+    "project4": "En Dech creamos aplicaciones móviles a medida que combinan diseño intuitivo, funcionalidad avanzada y tecnología de vanguardia. Desarrollamos soluciones móviles escalables y multiplataforma que potencian la productividad, mejoran la experiencia del usuario y conectan tu negocio con tus clientes en cualquier lugar, en cualquier momento.",
+    "project5": "Integraciones con IA",
+    "project6": "En Dech desarrollamos integraciones de software impulsadas por inteligencia artificial para optimizar tus procesos, automatizar tareas repetitivas y transformar datos en insights accionables. Con soluciones personalizadas y escalables, conectamos tus sistemas, mejoramos la eficiencia y potenciamos la toma de decisiones inteligentes, llevando tu negocio al siguiente nivel con tecnología innovadora y adaptativa.",
+    "us1": "Acerca de Nosotros",
+    "us2": "En Dech, somos una fábrica de software especializada en crear soluciones a la medida para empresas que buscan dar un salto tecnológico. Fundada por un equipo de apasionados por la tecnología y el software, nuestra misión es ofrecer productos de alta calidad, diseñados con las últimas tendencias y herramientas innovadoras, como la inteligencia artificial, para impulsar el crecimiento y la competitividad de nuestros clientes.",
+    "us3": "Nuestra historia comenzó en las aulas universitarias, donde un grupo de compañeros compartió la visión de transformar el mundo empresarial a través del software. Hoy, nos enorgullece ser un aliado estratégico para empresas que desean subir de nivel y adaptarse a la era digital.",
+    "us4": "En Dech, nos guían valores como la innovación, la transparencia y el compromiso con el cliente. Creemos que la tecnología no solo es una herramienta, sino un puente hacia nuevas oportunidades de negocio. Por eso, nos dedicamos a desarrollar soluciones que no solo resuelven problemas, sino que también abren puertas a un futuro más competitivo y sofisticado.",
+    "us5": "Si tu empresa está lista para dar el salto tecnológico que necesita para destacar en el mercado, en Dech estamos aquí para hacerlo posible."
 }

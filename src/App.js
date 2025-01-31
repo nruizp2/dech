@@ -8,6 +8,7 @@ import { Box } from '@mui/material';
 import Footer from './components/footer';
 import Contact from './components/contact';
 import Projects from './components/projects';
+import Us from './components/us';
 
 function AppContent({setLocale}) {
   const location = useLocation(); 
@@ -47,6 +48,7 @@ function AppContent({setLocale}) {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/us" element={<Us />} />
       </Routes>
     </div>
     <Footer className='footer'/>

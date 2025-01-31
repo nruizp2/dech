@@ -83,16 +83,16 @@ function Banner({f, setLocale}){
                     <Toolbar disableGutters>
                         <Grid2 container display={{xs:'none', md:'flex'}} sx={{width:'100%', justifyContent:'center', alignItems:'center'}}>
                             <Grid2 size={1}></Grid2>
-                            <Grid2 size= {2} display={'flex'} sx={{justifyContent:'center', alignItems:'center'}}>
-                                <img onClick={() => handleNavigate('')} alt='logo' className="img-logo" src={FullLogo}></img>
-                                <p onClick={() => handleNavigate('')} className="dech-typo" >Dech</p>
+                            <Grid2 onClick={() => handleNavigate('')} size= {2} display={'flex'} sx={{cursor: 'pointer',justifyContent:'center', alignItems:'center'}}>
+                                <img alt='logo' className="img-logo" src={FullLogo}></img>
+                                <p  className="dech-typo" >Dech</p>
                             </Grid2>
                             <Grid2 size={1}></Grid2>
                             <Grid2 size={4} display={'flex'} sx={{gap: '20px', justifyContent:'center', alignItems:'center'}}>
                                 <p onClick={() => handleNavigate('')} className="inicio-text">{intl.formatMessage({id:"home"})}</p>
                                 <p onClick={() => handleNavigate('services')} className="inicio-text">{intl.formatMessage({id:"services"})}</p>
                                 <p onClick={() => handleNavigate('projects')} className="inicio-text">{intl.formatMessage({id:"projects"})}</p>
-                                <p className="inicio-text">{intl.formatMessage({id:"about us"})}</p>
+                                <p onClick={() => handleNavigate('us')} className="inicio-text">{intl.formatMessage({id:"about us"})}</p>
                             </Grid2>
                             <Grid2  size={1}></Grid2>
                             <Grid2 size={2} sx={{justifyContent:'center', alignItems:'center'}}>

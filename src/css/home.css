@@ -38,7 +38,11 @@
 
     background: linear-gradient(86.94deg, #CB4937 0%, #C23477 99.4%);
     border-radius: 4px;
+}
 
+.home-button-1:hover{
+    position: relative;
+    border:1.6px solid white;
 }
 
 .home-button-1-text{

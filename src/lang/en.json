@@ -9,6 +9,7 @@
     "home3": "Our Services ⬊" ,
     "home4": "Why choose Dech as your ally?",
     "home5": "Watch this one-minute video and understand why you should choose our services!",
+    "home6": "Let's talk about your idea!",
     "services1":  "Solutions designed for you",
     "services2": "Development",
     "services3": "We create robust, scalable, and optimized applications to enhance your business",
@@ -24,5 +25,16 @@
     "services13": "We build Machine Learning and advanced analytics solutions to extract value from your data, optimise processes and boost your business.",
     "footer": "Dech Solutions, All Rights Reserved",
     "contact1": "Talk to us about your idea!",
-    "contact2": "Contact us by your preferred method"
+    "contact2": "Contact us by your preferred method",
+    "project1": "Look what we can do!",
+    "project2": "Explore some of the innovative products we have created, designed to meet your needs.",
+    "project3": "Mobile applications",
+    "project4": "At Dech we create bespoke mobile applications that combine intuitive design, advanced functionality and cutting-edge technology. We develop scalable, cross-platform mobile solutions that boost productivity, improve user experience and connect your business with your customers anywhere, anytime.",
+    "project5": "Integrations with AI",
+    "project6": "At Dech we develop AI-powered software integrations to optimise your processes, automate repetitive tasks and transform data into actionable insights. With customised and scalable solutions, we connect your systems, improve efficiency and empower intelligent decision making, taking your business to the next level with innovative and adaptive technology.",
+    "us1": "About us",
+    "us2": "At Dech, we are a software factory specialising in creating customised solutions for companies looking to make a technological leap. Founded by a team of people passionate about technology and software, our mission is to deliver high quality products, designed with the latest trends and innovative tools, such as artificial intelligence, to drive the growth and competitiveness of our customers.",
+    "us3": "Our story began in university classrooms, where a group of colleagues shared a vision of transforming the business world through software. Today, we are proud to be a strategic partner for companies that want to level up and adapt to the digital age.",
+    "us4": "At Dech, we are guided by values such as innovation, transparency and commitment to the customer. We believe that technology is not just a tool, but a bridge to new business opportunities. That is why we are dedicated to developing solutions that not only solve problems, but also open doors to a more competitive and sophisticated future.",
+    "us5": "If your company is ready to make the technological leap you need to stand out in the market, Dech is here to make it happen."
 }

@@ -23,6 +23,7 @@ function Home({f}){
     const video1_url  = 'https://www.youtube.com/embed/tgbNymZ7vqY'
 
     const handleNavigate = (path) => {
+        window.scrollTo(0, 0);
         f()
         navigate(`/${path}`)
     }
@@ -43,7 +44,7 @@ function Home({f}){
                 
                 <img alt='icon1' className='home-img-1' src={img1}></img>
             </Grid2>
-            <Grid2 size={{xs:12, md:6}} paddingTop={'3%'}>
+            {/* <Grid2 size={{xs:12, md:6}} paddingTop={'3%'}>
                 <p className='home-text-4'>{intl.formatMessage({id:"home4"})}</p>
             </Grid2>
             <Grid2 size={{xs:12, md:6}} paddingTop={'3%'}>
@@ -55,6 +56,14 @@ function Home({f}){
             </Grid2>
             <Grid2 size={12}  display={{xs: 'flex', md:'none'}}  paddingTop={'3%'} paddingRight={'5%'} sx={{width:'100%', justifyContent:'center', alignItems:'center'}}>
                 <iframe title='t2' height='400px' className='home-video-1' src={video1_url}></iframe>
+            </Grid2> */}
+
+            <Grid2 size={{xs:12, md:6}} sx={{justifyContent:'center', alignItems:'center', display:'flex'}}>
+                <p style={{paddingTop:'3%'}} className='home-text-4'>{intl.formatMessage({id:"home6"})}</p>
+            </Grid2>
+
+            <Grid2 size={{xs:12, md:6}} sx={{justifyContent:'center', alignItems:'center', display:'flex'}}>
+                <button onClick={()=> handleNavigate('contact')} className='home-button-1'><p className='home-button-1-text'>{intl.formatMessage({id:"contact"})}</p></button>
             </Grid2>
         </Grid2>
     )
