@@ -1,7 +1,7 @@
 import './App.css';
 import Banner from './components/banner';
 import React, { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation, HashRouter } from "react-router-dom";
 import Home from './components/home';
 import Services from './components/services';
 import { Box } from '@mui/material';
@@ -61,7 +61,7 @@ function AppContent({setLocale}) {
 
 function App({setLocale}) {
   return (
-    <BrowserRouter className="Dech" basename="/dech">
+    <HashRouter className="Dech" >
       <Box display={{ xs: 'none', md: 'block' }} sx = {{position: 'fixed', width:'100%', height:'auto'}}>
         <div className='gradient-1-app-md'></div>
         <div className='gradient-2-app-md'></div>      </Box>
@@ -71,7 +71,7 @@ function App({setLocale}) {
       </Box>
 
       <AppContent setLocale={setLocale}/> 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
