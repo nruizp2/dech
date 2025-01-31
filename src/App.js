@@ -9,6 +9,7 @@ import Footer from './components/footer';
 import Contact from './components/contact';
 import Projects from './components/projects';
 import Us from './components/us';
+import RouteError from './components/routeError';
 
 function AppContent({setLocale}) {
   const location = useLocation(); 
@@ -49,6 +50,8 @@ function AppContent({setLocale}) {
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/us" element={<Us />} />
+
+        <Route path="*" element={<RouteError/>} />
       </Routes>
     </div>
     <Footer className='footer'/>

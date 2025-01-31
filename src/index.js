@@ -19,6 +19,11 @@ const leng = navigator.language.split("-")[0]
 function Root() {
   const [locale, setLocale] = useState((leng === "en" || leng === "es")? leng: "en");
 
+  if (!window.location.pathname.startsWith("/dech")) {
+    window.location.replace("/dech")
+  }
+
+
   return (
     <div className='index-div'>
       <IntlProvider locale={locale} messages={messages[locale]} >
