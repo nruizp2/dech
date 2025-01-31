@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dech/static/css/main.4e6d9d86.css",
-    "main.js": "/dech/static/js/main.8d9acd93.js",
+    "main.js": "/dech/static/js/main.3ec24d42.js",
     "static/media/p2.jpg": "/dech/static/media/p2.08ef34a0d1353126d41e.jpg",
     "static/media/p4.jpg": "/dech/static/media/p4.8e4fdc19f83d152f0a9a.jpg",
     "static/media/p5.jpg": "/dech/static/media/p5.7b65398deb24f207818a.jpg",
@@ -12,12 +12,15 @@
     "static/media/home1Img.png": "/dech/static/media/home1Img.473988a666c13b4b020d.png",
     "static/media/p1.jpg": "/dech/static/media/p1.ba1951bfc5a966fe7852.jpg",
     "static/media/p10.jpg": "/dech/static/media/p10.3e2158553d4d2a4f2b1b.jpg",
-    "static/media/p1.png": "/dech/static/media/p1.ee97f5bab309bfea4300.png",
+    "static/media/p1.png": "/dech/static/media/p1.8fc08bc66138fa8db11f.png",
     "static/media/p9.jpg": "/dech/static/media/p9.73f4401d1aa1fafe8090.jpg",
-    "static/media/p2.png": "/dech/static/media/p2.aaaa65de17cbe10a8021.png",
-    "static/media/p3.png": "/dech/static/media/p3.f1559ab79d14ce1b4d96.png",
+    "static/media/p2.png": "/dech/static/media/p2.55a4778a81f24710a658.png",
+    "static/media/p7.png": "/dech/static/media/p7.730efc677e7aae3287c4.png",
+    "static/media/p3.png": "/dech/static/media/p3.425f01d015b642f3fdc9.png",
+    "static/media/p5.png": "/dech/static/media/p5.584cee13c9c31c36baee.png",
     "static/media/p4.png": "/dech/static/media/p4.8d68e9727cd9767951db.png",
     "static/media/montserrat-latin-ext-700-normal.woff": "/dech/static/media/montserrat-latin-ext-700-normal.6c3c83e763b9c70c4bc7.woff",
+    "static/media/p6.png": "/dech/static/media/p6.41960e1b0a142710e52e.png",
     "static/media/montserrat-latin-ext-700-normal.woff2": "/dech/static/media/montserrat-latin-ext-700-normal.35ae035fb77247440b26.woff2",
     "static/media/montserrat-latin-700-normal.woff": "/dech/static/media/montserrat-latin-700-normal.8ee8b516892b1fa0a70b.woff",
     "static/media/icon-services-10.png": "/dech/static/media/icon-services-10.1737bfc0e48794be0c77.png",
@@ -77,10 +80,10 @@
     "static/media/nunito-sans-vietnamese-400-normal.woff2": "/dech/static/media/nunito-sans-vietnamese-400-normal.170e94e9f869d539e5fd.woff2",
     "index.html": "/dech/index.html",
     "main.4e6d9d86.css.map": "/dech/static/css/main.4e6d9d86.css.map",
-    "main.8d9acd93.js.map": "/dech/static/js/main.8d9acd93.js.map"
+    "main.3ec24d42.js.map": "/dech/static/js/main.3ec24d42.js.map"
   },
   "entrypoints": [
     "static/css/main.4e6d9d86.css",
-    "static/js/main.8d9acd93.js"
+    "static/js/main.3ec24d42.js"
   ]
 }
