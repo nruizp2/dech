@@ -22,7 +22,7 @@ function Footer(){
                 {/* Espacio para poner soporte, politicas, ect en el futuro */}
             </Grid2>
 
-            <Grid2 size={{xs:12, md: 3}} sx={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+            <Grid2 paddingTop={{xs: "3%", md: '0'}} size={{xs:12, md: 3}} sx={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                 <p className="footer-text">{`© ${currentYear} ` +  intl.formatMessage({id: "footer"})}</p>
             </Grid2>
         </Grid2>

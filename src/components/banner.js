@@ -109,7 +109,7 @@ function Banner({f, setLocale}){
                         </Grid2>
 
                         <Grid2 container display={{xs:'flex', md:'none'}} sx={{width:'100%', justifyContent:'center', alignItems:'center'}}>
-                            <Grid2 size={2} display={'flex'} >
+                            <Grid2 size={4} display={'flex'} sx = {{ justifyContent:'left', alignItems:'center', textAlign:'center',}} >
                                 <img onClick={() => handleMenu()} style={{opacity: (openMenu? '1': '0.5')}} alt='menu-icon' className='menu-icon' src={menuIcon}></img>
                                 <Menu
                                     anchorEl={anchorEl} open={openMenu} onClose={handleClose} anchorOrigin={{ vertical: 60, horizontal: 0,}}
@@ -121,21 +121,15 @@ function Banner({f, setLocale}){
                                     <MenuItem onClick={() => handleNavigateAndClose('')} className="MenuItem"><p className="inicio-text">{intl.formatMessage({id:"home"})}</p></MenuItem>
                                     <MenuItem onClick={() => handleNavigateAndClose('services')} className="MenuItem"><p className="inicio-text">{intl.formatMessage({id:"services"})}</p></MenuItem>
                                     <MenuItem onClick={() => handleNavigateAndClose('projects')}><p className="inicio-text">{intl.formatMessage({id:"projects"})}</p></MenuItem>
+                                    <MenuItem onClick={() => handleNavigateAndClose('contact')}><p className="inicio-text">{intl.formatMessage({id:"contact"})}</p></MenuItem>
                                     <MenuItem onClick={() => handleNavigateAndClose('us')}><p className="inicio-text">{intl.formatMessage({id:"about us"})}</p></MenuItem>
                                     <MenuItem onClick={handleClose}><img onClick={() => changeLocale()} alt='language' src={currLocale === "es"? EN: ES} className='lang-img'></img></MenuItem>
                                 </Menu>
                             </Grid2>
-                            <Grid2 size= {6} display={'flex'} sx = {{ justifyContent:'center', alignItems:'center', textAlign:'center',}}>
+                            <Grid2 size= {4} display={'flex'} sx = {{ justifyContent:'center', alignItems:'center', textAlign:'center',}}>
                                 <img onClick={() => handleNavigate('')} alt='logo' className="img-logo" src={FullLogo}></img>
-                                <p onClick={() => handleNavigate('')} className="dech-typo" >Dech</p>
                             </Grid2>
                             <Grid2 size= {4} sx = {{ justifyContent:'center', alignItems:'center', display:'flex'}}>
-                                <button onClick={() => handleNavigate('contact')} className="banner-button-contact"><p className='banner-button-contact-text'>
-                                {intl.formatMessage({id:'contact'}).split('').map((char, index) => (
-                                    <span key={index} >{char}</span>
-                                ))}
-                                </p>
-                                </button>
                             </Grid2>
                         </Grid2>
                     </Toolbar>

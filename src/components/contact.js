@@ -17,7 +17,7 @@ function Contact(){
 
     return(
         <Grid2 container sx={{display: 'flex',justifyContent:'center', alignItems:'center'}}>
-            <Grid2 paddingTop={{xs: '0', md: '200px'}}  size={12} sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingBottom:'0px', paddingLeft: '3%'}}>
+            <Grid2 paddingTop={{xs: '50px', md: '200px'}}  size={12} sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingBottom:'0px', paddingRight:'5%' , paddingLeft: '5%', textAlign:'center'}}>
                 <p className="contact-main-title">{intl.formatMessage({id: "contact1"})}</p>
                 <p className="contact-sec-title" >{intl.formatMessage({id: "contact2"})}</p>
             </Grid2>
