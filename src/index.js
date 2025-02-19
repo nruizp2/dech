@@ -19,9 +19,9 @@ const leng = navigator.language.split("-")[0]
 function Root() {
   const [locale, setLocale] = useState((leng === "en" || leng === "es")? leng: "en");
 
-  if (!window.location.pathname.startsWith("/dech")) {
-    window.location.replace("/dech")
-  }
+  // if (!window.location.pathname.startsWith("/dech")) {
+  //   window.location.replace("/dech")
+  // }
 
 
   return (
