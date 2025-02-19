@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0fe2f732.css",
-    "main.js": "/static/js/main.94e3a3cc.js",
+    "main.js": "/static/js/main.0bf62df4.js",
     "static/media/p2.jpg": "/static/media/p2.08ef34a0d1353126d41e.jpg",
     "static/media/p4.jpg": "/static/media/p4.8e4fdc19f83d152f0a9a.jpg",
     "static/media/p5.jpg": "/static/media/p5.7b65398deb24f207818a.jpg",
@@ -16,7 +16,6 @@
     "static/media/p9.jpg": "/static/media/p9.73f4401d1aa1fafe8090.jpg",
     "static/media/p2.png": "/static/media/p2.55a4778a81f24710a658.png",
     "static/media/p7.png": "/static/media/p7.730efc677e7aae3287c4.png",
-    "static/media/computer.png": "/static/media/computer.9a57d78c3d3284e9a6ea.png",
     "static/media/p3.png": "/static/media/p3.425f01d015b642f3fdc9.png",
     "static/media/p5.png": "/static/media/p5.584cee13c9c31c36baee.png",
     "static/media/p4.png": "/static/media/p4.8d68e9727cd9767951db.png",
@@ -81,10 +80,10 @@
     "static/media/nunito-sans-vietnamese-400-normal.woff2": "/static/media/nunito-sans-vietnamese-400-normal.170e94e9f869d539e5fd.woff2",
     "index.html": "/index.html",
     "main.0fe2f732.css.map": "/static/css/main.0fe2f732.css.map",
-    "main.94e3a3cc.js.map": "/static/js/main.94e3a3cc.js.map"
+    "main.0bf62df4.js.map": "/static/js/main.0bf62df4.js.map"
   },
   "entrypoints": [
     "static/css/main.0fe2f732.css",
-    "static/js/main.94e3a3cc.js"
+    "static/js/main.0bf62df4.js"
   ]
 }
