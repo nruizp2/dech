@@ -197,3 +197,21 @@
 .banner-button-contact .banner-button-contact-text span:nth-child(11) {
     animation-delay: 1.50s;
 }
+
+.locale-text-banner{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0%;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.locale-text-banner:hover{
+
+    color: rgba(255, 255, 255, 1);
+
+}
