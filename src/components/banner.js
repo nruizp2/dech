@@ -5,8 +5,6 @@ import { Grid2, AppBar, Toolbar, Container, Menu, MenuItem} from "@mui/material"
 
 import FullLogo from "../assets/full-logo.png"
 import menuIcon from "../assets/menu-icon.png"
-import ES from "../assets/ES-icon.png"
-import EN from "../assets/EN-icon.png"
     
 import "@fontsource/montserrat/700.css";
 import "@fontsource/nunito-sans";
@@ -118,7 +116,7 @@ function Banner({f, setLocale}){
                                 </button>
                             </Grid2>
                             <Grid2 size={1} sx={{justifyContent:'center', alignItems:'center', display:'flex'}}>
-                                <p onClick={() => changeLocale()} className='locale-text-banner'>{currLocale === "es"? 'EN': 'ES'}</p>
+                                {/* <p onClick={() => changeLocale()} className='locale-text-banner'>{currLocale === "es"? 'EN': 'ES'}</p> */}
                             </Grid2>
                         </Grid2>
 
@@ -132,12 +130,12 @@ function Banner({f, setLocale}){
                                     horizontal: 'left',
                                     }} 
                                 >   
-                                    <MenuItem onClick={() => handleNavigateAndClose('')} className="MenuItem"><p className="inicio-text">{intl.formatMessage({id:"home"})}</p></MenuItem>
-                                    <MenuItem onClick={() => handleNavigateAndClose('services')} className="MenuItem"><p className="inicio-text">{intl.formatMessage({id:"services"})}</p></MenuItem>
-                                    <MenuItem onClick={() => handleNavigateAndClose('projects')}><p className="inicio-text">{intl.formatMessage({id:"projects"})}</p></MenuItem>
-                                    <MenuItem onClick={() => handleNavigateAndClose('contact')}><p className="inicio-text">{intl.formatMessage({id:"contact"})}</p></MenuItem>
-                                    <MenuItem onClick={() => handleNavigateAndClose('us')}><p className="inicio-text">{intl.formatMessage({id:"about us"})}</p></MenuItem>
-                                    <MenuItem onClick={handleClose}><p onClick={() => changeLocale()} className='locale-text-banner'>{currLocale === "es"? 'EN': 'ES'}</p></MenuItem>
+                                    <MenuItem onClick={() => handleNavigateAndClose('')} className="MenuItem"><p style={textBanner("/")} className="inicio-text">{intl.formatMessage({id:"home"})}</p></MenuItem>
+                                    <MenuItem onClick={() => handleNavigateAndClose('services')} className="MenuItem"><p style={textBanner("/services")} className="inicio-text">{intl.formatMessage({id:"services"})}</p></MenuItem>
+                                    <MenuItem onClick={() => handleNavigateAndClose('projects')}><p style={textBanner("/projects")} className="inicio-text">{intl.formatMessage({id:"projects"})}</p></MenuItem>
+                                    <MenuItem onClick={() => handleNavigateAndClose('contact')}><p style={textBanner("/contact")} className="inicio-text">{intl.formatMessage({id:"contact"})}</p></MenuItem>
+                                    <MenuItem onClick={() => handleNavigateAndClose('us')}><p style={textBanner("/us")} className="inicio-text">{intl.formatMessage({id:"about us"})}</p></MenuItem>
+                                    {/* <MenuItem onClick={handleClose}><p onClick={() => changeLocale()} className='locale-text-banner'>{currLocale === "es"? 'EN': 'ES'}</p></MenuItem> */}
                                 </Menu>
                             </Grid2>
                             <Grid2 size= {4} display={'flex'} sx = {{ justifyContent:'center', alignItems:'center', textAlign:'center',}}>

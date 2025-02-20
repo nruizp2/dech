@@ -49,3 +49,43 @@
 .contact-method-grid:hover .contact-method-photo{
     animation: iconAnimation 2s ease-out forwards infinite;
 }
+
+.contact-form{
+    width: 100vw;
+    margin-top: 5%;
+    height: 500px;
+    background-color: #FFFFFF;
+}
+
+.contact-form-text-1{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 60px;
+    color: #000000;
+    text-align: left;
+    margin-left: 5%;
+
+}
+
+
+
+.send-contact-button{
+    padding: 10px 5px;
+    margin-top: 10px;
+
+    width: 200px;
+    height: 45px;
+
+    border: none;
+
+    background: linear-gradient(86.94deg, #CB4937 0%, #C23477 99.4%);
+    border-radius: 4px;
+}
+
+.send-contact-button:hover{
+    position: relative;
+    border:1.6px solid black;
+}

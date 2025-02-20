@@ -8,13 +8,32 @@
 }
 
 .us-sec-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 84px;
+    color: #FFFFFF;
+
+    margin-bottom: 0%;
+}
+
+.us-gradient-div {
+    background: linear-gradient(to right, #ea4c59, #be3378);
+    width: 200px;
+    height: 5px; 
+
+    margin-bottom: 20px;
+}
+
+.us-text{
     font-family: 'Nunito Sans';
     font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 39px;
-    letter-spacing: -0.656526px;
-    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    color: #FFFFFF;
+    
+    margin-bottom: 5%;
+    margin-right: 10%;
 
-    text-align: justify;
+    font-weight: 400;
 }

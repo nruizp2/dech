@@ -4,32 +4,35 @@ import { Paper } from "@mui/material";
 function CarouselDech({ imgs, h, w }) {
     return (
         <Carousel
-            width="100%"  // El carrusel ocupa el 100% del ancho disponible
-            height={h}    // Ajusta la altura según lo que pase como prop
             autoPlay={true}
-            indicators={true}
+            indicators={false}
             swipe={true}
             cycleNavigation={true}
             animation="slide"
             duration={1000}
-            sx={{ width: '100%', height: '100%' }} // Asegura que el carrusel ocupe todo el espacio disponible
+            sx={{ 
+                width: w, // Usamos el ancho proporcionado (puede ser porcentaje o píxeles)
+                height: h, // Usamos la altura proporcionada (puede ser porcentaje o píxeles)
+                position: 'relative', // Aseguramos que el carrusel sea un contenedor relativo
+            }}
         >
             {imgs.map((i, index) => (
-                <Item key={`img-carousel-${index}`} h={h} w={w} source={i} />
+                <Item key={`img-carousel-${index}`} source={i} />
             ))}
         </Carousel>
     );
 }
 
-function Item({ source, h, w }) {
+function Item({ source }) {
     return (
         <Paper sx={{
-            width: '100%',  // El Paper ocupa todo el ancho disponible
-            height: '100%', // El Paper ocupa toda la altura disponible
+            width: '100%',  // Ocupa todo el ancho del carrusel
+            height: '100%', // Ocupa toda la altura del carrusel
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            background: 'transparent'
+            background: 'transparent',
+            position: 'relative', // Aseguramos que el Paper sea un contenedor relativo
         }}>
             <img
                 src={source}
@@ -37,7 +40,7 @@ function Item({ source, h, w }) {
                 style={{
                     width: '100%',  
                     height: '100%', 
-                    objectFit: 'contain', 
+                    objectFit: 'contain', // Ajusta la imagen dentro del contenedor
                 }}
             />
         </Paper>

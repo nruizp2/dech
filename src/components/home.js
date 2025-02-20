@@ -29,7 +29,7 @@ function Home({f}){
     }
 
     return(
-        <Grid2 container paddingTop={'20px'} paddingRight={'0'} paddingLeft={'10%'}>
+        <Grid2 container paddingTop={'20px'} paddingRight={'0'} paddingLeft={'80px'} paddingBottom={'40px'} sx={{justifyContent:'center', alignItems:'center', display:'flex'}}>
             <Grid2 size={{xs: 12, md: 7}} display={'block'}  paddingTop={{sx:'10px', md:'150px'}}>
                 <h1 className='home-text-1'>{intl.formatMessage({id:"home1"})}</h1>
                 <p className='home-text-2'>{intl.formatMessage({id:"home2"})}</p>
@@ -58,11 +58,11 @@ function Home({f}){
                 <iframe title='t2' height='400px' className='home-video-1' src={video1_url}></iframe>
             </Grid2> */}
 
-            <Grid2 size={{xs:12, md:6}} sx={{justifyContent:'center', alignItems:'center', display:'flex'}}>
-                <p style={{paddingTop:'3%'}} className='home-text-4'>{intl.formatMessage({id:"home6"})}</p>
+            <Grid2 paddingTop={'40px'} size={{xs:12, md:6}} sx={{justifyContent:'center', alignItems:'center', display:'flex'}}>
+                <p  className='home-text-4'>{intl.formatMessage({id:"home6"})}</p>
             </Grid2>
 
-            <Grid2 size={{xs:12, md:6}} sx={{justifyContent:'center', alignItems:'center', display:'flex'}}>
+            <Grid2 paddingTop={'40px'} size={{xs:12, md:6}} sx={{justifyContent:'center', alignItems:'center', display:'flex'}}>
                 <button onClick={()=> handleNavigate('contact')} className='home-button-1'><p className='home-button-1-text'>{intl.formatMessage({id:"contact"})}</p></button>
             </Grid2>
         </Grid2>

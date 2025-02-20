@@ -15,7 +15,7 @@ function Services(){
     const getImageSrc = (i) => require(`../assets/icon-services-${i}.png`);
 
     return(
-        <Grid2 container className="services-principal-grid" spacing={10}>
+        <Grid2 container className="services-principal-grid" spacing={10} paddingBottom={'40px'}>
             <Grid2 size= {12}>
                 <Box component='p'  textAlign={{xs:"start", md:'center'}} marginLeft={{xs:'5%', md:'25%'}} marginRight={{xs:'0%', md:'25%'}} className="services-text-1">{intl.formatMessage({id:"services1"})}</Box>
             </Grid2>
