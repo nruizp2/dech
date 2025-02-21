@@ -14,8 +14,8 @@ const messages = {
   'en': localeEnMessages
 };
 
-// const leng = navigator.language.split("-")[0]
-const leng = 'es'
+const leng = navigator.language.split("-")[0]
+// const leng = 'es'
 
 function Root() {
   const [locale, setLocale] = useState((leng === "en" || leng === "es")? leng: "en");
