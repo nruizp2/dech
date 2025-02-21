@@ -116,7 +116,7 @@ function Banner({f, setLocale}){
                                 </button>
                             </Grid2>
                             <Grid2 size={1} sx={{justifyContent:'center', alignItems:'center', display:'flex'}}>
-                                {/* <p onClick={() => changeLocale()} className='locale-text-banner'>{currLocale === "es"? 'EN': 'ES'}</p> */}
+                                <p onClick={() => changeLocale()} className='locale-text-banner'>{currLocale === "es"? 'EN': 'ES'}</p>
                             </Grid2>
                         </Grid2>
 
@@ -135,7 +135,7 @@ function Banner({f, setLocale}){
                                     <MenuItem onClick={() => handleNavigateAndClose('projects')}><p style={textBanner("/projects")} className="inicio-text">{intl.formatMessage({id:"projects"})}</p></MenuItem>
                                     <MenuItem onClick={() => handleNavigateAndClose('contact')}><p style={textBanner("/contact")} className="inicio-text">{intl.formatMessage({id:"contact"})}</p></MenuItem>
                                     <MenuItem onClick={() => handleNavigateAndClose('us')}><p style={textBanner("/us")} className="inicio-text">{intl.formatMessage({id:"about us"})}</p></MenuItem>
-                                    {/* <MenuItem onClick={handleClose}><p onClick={() => changeLocale()} className='locale-text-banner'>{currLocale === "es"? 'EN': 'ES'}</p></MenuItem> */}
+                                    <MenuItem onClick={handleClose}><p onClick={() => changeLocale()} className='locale-text-banner'>{currLocale === "es"? 'EN': 'ES'}</p></MenuItem>
                                 </Menu>
                             </Grid2>
                             <Grid2 size= {4} display={'flex'} sx = {{ justifyContent:'center', alignItems:'center', textAlign:'center',}}>
